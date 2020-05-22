@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-// import App from './App';
+import '../src/css/index.css';
 import Navigation from './navigation';
 import Header from './header';
-import * as serviceWorker from './serviceWorker';
 import Services from './services';
 import Login from './login';
 import Footer from './footer';
@@ -25,4 +23,4 @@ class App extends Component {
 }
 
 ReactDOM.render( <App />, document.getElementById('root'));
-serviceWorker.unregister();
+
