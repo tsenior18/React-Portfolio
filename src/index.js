@@ -11,8 +11,7 @@ class App extends Component {
    render(){
      return(
        <div>
-      {/* Can use the title etc through as props */}
-      <Navigation logoTitle="Tom Senior" />
+      <Navigation  />
       <Header title="Welcome To My Portfolio" button="Click To be Re-Directed to the About Page" para="React Portfolio"/>
       <Services />
       <Login  buttonName="Log In" user="Enter Username:" pass="Enter Password:"/>

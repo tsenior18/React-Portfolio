@@ -1,24 +1,12 @@
 import React, { Component } from 'react';
 import '../src/css/login.css';
 
-// const users = [
-//     {
-//         users: 'tom',
-//         password: 'tom'
-//     },
-//     {
-//         user:'emma',
-//         password: 'emma'
-//     }
-// ];
-
 class Login extends Component {
         validate() {
-
         var un = document.querySelector(".uInput").value;
         var pw = document.querySelector(".pInput").value;
         var valid = -1;
-    
+        // Setting Users & Passwords
         var unArray = ["tom", "emma"];
         var pwArray = ["tom", "emma"];
         
@@ -33,12 +21,11 @@ class Login extends Component {
             alert ("Login was successful");
         }
         else {
-            alert("Invalid Username and/or Password! Please try again. You will not be able to submit this form without a successful login")
+            alert("Invalid Username and/or Password! Please try again")
             document.querySelector(".uInput").value = "";
             document.querySelector(".pInput").value = "";
         }
     };
-
     render(){
         return(
             <div className="Login">
@@ -54,6 +41,5 @@ class Login extends Component {
                 </div>
             </div>
       );
-    }
-}
+    }}
 export default Login;
