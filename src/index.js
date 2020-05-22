@@ -7,6 +7,7 @@ import Header from './header';
 import * as serviceWorker from './serviceWorker';
 import Services from './services';
 import Login from './login';
+import Footer from './footer';
 
 class App extends Component {
    render(){
@@ -17,6 +18,7 @@ class App extends Component {
       <Header title="Welcome To My Portfolio" button="Click To be Re-Directed to the About Page" para="React Portfolio"/>
       <Services />
       <Login  buttonName="Log In" user="Enter Username:" pass="Enter Password:"/>
+      <Footer />
       </div>
      );
    }
