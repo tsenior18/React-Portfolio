@@ -1,0 +1,23 @@
+.Login{
+    background: #1d809f;
+    padding-top: 70px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+.title{
+    background: white;
+    height: 10vh;
+    padding-bottom: 5px;
+}
+.title > h1 {
+    color:black;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+}

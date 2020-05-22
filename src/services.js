@@ -5,8 +5,8 @@ class Services extends Component{
     render(){
         return(
             <div className="services">
-                <h3>services</h3>
-                <h2>What We Offer?</h2>
+                <h3>My Skill Set</h3>
+                <h2>Programming Languages I know:</h2>
             <div className="row">
                     <Icons myIcon={iconobj[0].icon} myTitle={iconobj[0].titles}  myDescription={iconobj[0].description}/>
                     <Icons myIcon={iconobj[1].icon} myTitle={iconobj[1].titles}  myDescription={iconobj[1].description}/>
@@ -20,24 +20,24 @@ class Services extends Component{
 
 const iconobj = [
     {
-        icon: <ion-icon name="call-outline"></ion-icon>,
-        titles: 'Responsive',
-        description: 'Example Text'
+        icon: <ion-icon name="logo-html5"></ion-icon>,
+        titles: 'HTML',
+        description: 'Designing Layouts for Responsive Webpages'
     },
     {
-        icon: <ion-icon name="brush-outline"></ion-icon>,
-        titles: 'Designed',
-        description: 'Example Text'
+        icon: <ion-icon name="logo-html5"></ion-icon>,
+        titles: 'CSS',
+        description: 'Using relative Styling to webpages'
     },
     {
-        icon: <ion-icon name="thumbs-up-outline"></ion-icon>,
-        titles: 'Favourite',
-        description: 'Example Text'
+        icon: <ion-icon name="logo-javascript"></ion-icon>,
+        titles: 'JavaScript',
+        description: 'Creating functional Elements of the webpage'
     },
     {
-        icon: <ion-icon name="help-outline"></ion-icon>,
-        titles: 'Question',
-        description: 'Example Text'
+        icon: <ion-icon name="logo-react"></ion-icon>,
+        titles: 'React',
+        description: 'Using React to develop function webpages, Using their framework'
     }
 ]
 

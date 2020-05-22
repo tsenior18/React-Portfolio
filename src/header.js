@@ -6,7 +6,7 @@ render(){
  return (
      <header>
          <h1>{this.props.title}</h1>
-         <p>Welcome to my first try</p>
+         <p>{this.props.para}</p>
          <a href="#home">{this.props.button}</a>
      </header>
  );

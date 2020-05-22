@@ -7,14 +7,16 @@ header{
 }
 header h1{
     margin: 0;
-    font-size: 4rem;
-    color:rgb(33, 37, 41)
+    font-size: 60px;
+    color:rgb(33, 37, 41);
+    font-family: 'Cinzel', serif;
 }
 header p {
-    font-size: 1.75rem;
+    font-size: 30px;
     color:rgb(33, 37, 41);
     font-weight: 700;
     margin-bottom: 30px;
+    font-family: 'Cinzel', serif;
 }
 header a {
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1);
