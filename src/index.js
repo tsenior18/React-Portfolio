@@ -12,7 +12,7 @@ class App extends Component {
      return(
        <div>
       {/* Can use the title etc through as props */}
-      <Navigation logoTitle="React Project" />
+      <Navigation logoTitle="Tom Senior" />
       <Header title="Stylish Portfolio" button="Find Out More"/>
       <Services />
       </div>
